@@ -24,6 +24,7 @@ function filterProducts(e){
 }
 function clearAll(e){
     list.innerHTML = ''
+    localStorage.clear()
     checkItems()
 }
 function removeProduct(e){
